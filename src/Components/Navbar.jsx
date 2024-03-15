@@ -7,10 +7,9 @@ function Navbar() {
 
     const [showMenu, setShowMenu] =  useState(false);
 
-
     return ( 
         <nav className="nav">
-            <div className="nav__menu">
+            <div className={`${showMenu ? 'nav__menu show-menu' : 'nav__menu'}`}>   
                 <ul className="nav__list">
                     {links.map(({name,icon,path}, index) => {
                         return(
