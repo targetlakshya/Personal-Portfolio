@@ -2,11 +2,14 @@
     background-color: var(--first-color);
     position: fixed;
     inset-block: 0;
-    left:  0;
+    left:  -100%;
     background-color: var(--container-color);
     width: 100%;
     padding: 60px 30px;
+}
 
+.show-menu {
+    left: 0;
 }
 
 .nav__link {
@@ -25,4 +28,30 @@
 
 .nav__name {
     font-weight: var(--weight-500);
+}
+
+.active-nav .nav__icon,
+.active-nav .nav__name {
+    color: var(--first-color);
+
+}
+
+.nav__toggle {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: var(--container-color);
+    border-radius: 5px;
+    padding: 12px 10px;
+}
+
+.nav__toggle span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    border-radius: 2px;
+    background-color: var(--title-color);
+    margin-bottom: 5px;
 }
