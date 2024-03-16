@@ -61,25 +61,25 @@ import {
     {
       id: 1,
       title: 'First Name : ',
-      description: 'Steve',
+      description: 'Lakshya',
     },
   
     {
       id: 2,
       title: 'Last Name : ',
-      description: 'Milner',
+      description: 'Borasi',
     },
   
     {
       id: 3,
       title: 'Age : ',
-      description: '27 Years',
+      description: '21 Years',
     },
   
     {
       id: 4,
       title: 'Nationality : ',
-      description: 'Tunisian',
+      description: 'Indian',
     },
   
     {
@@ -91,31 +91,31 @@ import {
     {
       id: 6,
       title: 'Address : ',
-      description: 'Tunis',
+      description: 'Bhopal, India',
     },
   
     {
       id: 7,
       title: 'Phone : ',
-      description: '+21621184010',
+      description: '+91 9589362921',
     },
   
     {
       id: 8,
       title: 'Email : ',
-      description: 'you@mail.com',
+      description: 'thetarget018@gmail.com',
     },
   
     {
       id: 9,
-      title: 'Skype : ',
-      description: 'steve.milner',
+      title: 'Linkedin : ',
+      description: 'Lakshya Borasi',
     },
   
     {
       id: 10,
       title: 'Langages : ',
-      description: 'French, English',
+      description: 'English, Hindi',
     },
   ];
   
