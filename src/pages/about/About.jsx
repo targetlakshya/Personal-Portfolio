@@ -3,6 +3,8 @@ import Info from '../../Components/Info.jsx';
 import Stats from '../../Components/Stats';
 import { FaDownload } from "react-icons/fa";
 import CV from '../../assets/lakshya-resume.pdf';
+import "./about.css"
+import Skills from '../../Components/Skills.jsx';
 
 function About() {
     return ( 
@@ -20,10 +22,21 @@ function About() {
 
                         <a href={CV} download='' className="button">Download Resume <span className="button__icon"><FaDownload /></span></a>
                     </div>
+                    <div className="stats grid">
+                    <Stats />
+                    </div>
                 </div>
 
-                <div className="stats grid">
-                    <Stats />
+                  
+            </section>
+
+            <div className="separator"></div>
+
+            <section className="skills">
+                <h3 className="section__subtitle subtitle__center">My Skills</h3>
+
+                <div className="skills__container grid">
+                    <Skills />
                 </div>
             </section>
         </main>
