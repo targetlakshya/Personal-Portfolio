@@ -6,8 +6,10 @@ import {
     FaBriefcase,
     FaGraduationCap,
     FaCode,
+    FaGithub 
   } from 'react-icons/fa';
   import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
+  import { Link } from 'react-router-dom';
   
   import Work1 from './assets/project-1.jpeg';
   import Work2 from './assets/project-2.jpg';
@@ -55,6 +57,13 @@ import {
       icon: <FaEnvelopeOpen className='nav__icon' />,
       path: '/contact',
     },
+
+    {
+      id: 4,
+      name: 'Github',
+      icon: <FaGithub className='nav__icon' />,
+      path: '',
+    }
   ];
   
   export const personalInfo = [
@@ -152,7 +161,10 @@ import {
       icon: <FaBriefcase />,
       year: 'DEC 2023 - MAR 2024',
       title: 'Prompt Designer <span> Sugarcane AI </span>',
-      desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
+      desc: `As a Prompt Designing Intern at SugarCane AI,I focused on training their AI model.
+      Responsibilities included data preprocessing, experimentation, and fine-tuning parameters for
+      improved performance. Assisted in troubleshooting technical issues and documented processes
+      for knowledge sharing.`,
     },
   
     // {
@@ -246,7 +258,7 @@ import {
   
     {
       id: 8,
-      title: 'OOPs',
+      title: 'OOPS',
       percentage: '45',
     },
   ];
