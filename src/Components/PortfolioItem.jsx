@@ -22,7 +22,7 @@ const PortfolioItem = ({img, title, details}) => {
            {modal && (
              <div className="portfolio__modal">
              <div className="portfolio__modal-content">
-                 <img src={Close} alt="" className="modal-close" />
+                 <img src={Close} alt="" className="modal__close" onClick={toggleModal} />
 
                  <h3 className="modal__title">{title}</h3>
 
