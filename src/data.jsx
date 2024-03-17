@@ -150,35 +150,35 @@ import {
       id: 1,
       category: 'experience',
       icon: <FaBriefcase />,
-      year: '2018 - PRESENT',
-      title: 'Web Developer <span> Envato </span>',
+      year: 'DEC 2023 - MAR 2024',
+      title: 'Prompt Designer <span> Sugarcane AI </span>',
       desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
     },
   
-    {
-      id: 2,
-      category: 'experience',
-      icon: <FaBriefcase />,
-      year: '2013 - 2018',
-      title: 'UI/UX Designer <span> Themeforest </span>',
-      desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
-    },
+    // {
+    //   id: 2,
+    //   category: 'experience',
+    //   icon: <FaBriefcase />,
+    //   year: '2013 - 2018',
+    //   title: 'UI/UX Designer <span> Themeforest </span>',
+    //   desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    // },
   
-    {
-      id: 3,
-      category: 'experience',
-      icon: <FaBriefcase />,
-      year: '2005 - 2013',
-      title: 'Consultant <span> Videohive </span>',
-      desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
-    },
+    // {
+    //   id: 3,
+    //   category: 'experience',
+    //   icon: <FaBriefcase />,
+    //   year: '2005 - 2013',
+    //   title: 'Consultant <span> Videohive </span>',
+    //   desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
+    // },
   
     {
       id: 4,
       category: 'education',
       icon: <FaGraduationCap />,
-      year: '2015',
-      title: 'Engineering Degree <span> Oxford University </span>',
+      year: '2021-Present',
+      title: 'Bachelor of Technology Degree <span> <br> Technocrats Institute of Technology </span>',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
     },
   
@@ -186,8 +186,8 @@ import {
       id: 5,
       category: 'education',
       icon: <FaGraduationCap />,
-      year: '2012',
-      title: 'Master Degree <span> KIEV University </span>',
+      year: '2020-2021',
+      title: 'Senior Secondary Examination <span> <br>Gyan Sagar Public School </span>',
       desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
     },
   
@@ -195,8 +195,8 @@ import {
       id: 6,
       category: 'education',
       icon: <FaGraduationCap />,
-      year: '2009',
-      title: 'Bachelor Degree <span> Tunis High School </span>',
+      year: '2018-2019',
+      title: 'High School Examination <span> <br> V.S. Public School </span>',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
     },
   ];
@@ -205,48 +205,48 @@ import {
     {
       id: 1,
       title: 'Html',
-      percentage: '25',
+      percentage: '82',
     },
   
     {
       id: 2,
-      title: 'Javascript',
-      percentage: '89',
+      title: 'CSS',
+      percentage: '75',
     },
   
     {
       id: 3,
-      title: 'Css',
+      title: 'Javascript',
       percentage: '70',
     },
   
     {
       id: 4,
-      title: 'Php',
-      percentage: '66',
+      title: 'Python',
+      percentage: '89',
     },
   
     {
       id: 5,
-      title: 'Wordpress',
-      percentage: '95',
+      title: 'MySQL',
+      percentage: '60',
     },
   
     {
       id: 6,
-      title: 'Jquery',
-      percentage: '50',
+      title: 'React',
+      percentage: '45',
     },
   
     {
       id: 7,
-      title: 'Angular',
-      percentage: '65',
+      title: 'DSA',
+      percentage: '30',
     },
   
     {
       id: 8,
-      title: 'React',
+      title: 'OOPs',
       percentage: '45',
     },
   ];

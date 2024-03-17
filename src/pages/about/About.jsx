@@ -5,6 +5,8 @@ import { FaDownload } from "react-icons/fa";
 import CV from '../../assets/lakshya-resume.pdf';
 import "./about.css"
 import Skills from '../../Components/Skills.jsx';
+import { resume } from '../../data.jsx';
+import ResumeItem from '../../Components/ResumeItem.jsx';
 
 function About() {
     return ( 
@@ -38,6 +40,47 @@ function About() {
                 <div className="skills__container grid">
                     <Skills />
                 </div>
+
+            </section>
+
+            <div className="separator"></div>
+
+            <section className="resume">
+            <h3 className="section__subtitle subtitle__center">Work Experience</h3>
+
+            <div className="resume__container grid">
+                <div className="resume__data">
+                    {resume.map((val) => {
+                        if(val.category === "experience") {
+                            return <ResumeItem key={val.id} {...val} />
+                        }
+                    })}
+                </div>
+
+            </div>
+
+            <div className="separator"></div>
+
+            <h3 className="section__subtitle subtitle__center">Education</h3>
+
+            <div className="resume__container grid">
+                {/* <div className="resume__data">
+                    {resume.map((val) => {
+                        if(val.category === "experience") {
+                            return <ResumeItem key={val.id} {...val} />
+                        }
+                    })}
+                </div> */}
+
+                <div className="resume__data">
+                    {resume.map((val) => {
+                        if(val.category === "education") {
+                            return <ResumeItem key={val.id} {...val} />
+                        }
+                    })}
+                </div>
+            </div>
+
             </section>
         </main>
         );
