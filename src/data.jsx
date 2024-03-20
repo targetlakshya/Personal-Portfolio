@@ -11,7 +11,7 @@ import {
   import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
   import { Link } from 'react-router-dom';
   
-  import Work1 from './assets/project-1.jpeg';
+  import Work1 from './assets/project-1.png';
   import Work2 from './assets/project-2.jpg';
   import Work3 from './assets/project-3.jpeg';
   import Work4 from './assets/project-4.jpeg';
@@ -57,12 +57,13 @@ import {
       icon: <FaEnvelopeOpen className='nav__icon' />,
       path: '/contact',
     },
-
+    
     {
-      id: 4,
+      id: 5,
       name: 'Github',
       icon: <FaGithub className='nav__icon' />,
-      path: '',
+      path: 'https://github.com/targetlakshya',
+      target: '_blank',
     }
   ];
   
@@ -267,7 +268,7 @@ import {
     {
       id: 1,
       img: Work1,
-      title: 'Photo Editing',
+      title: 'Headphone Page Design',
       details: [
         {
           icon: <FiFileText />,
