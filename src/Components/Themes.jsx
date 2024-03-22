@@ -19,7 +19,7 @@ const getStorageTheme = () => {
         theme = localStorage.getItem('theme')
     }
 
-    return theme;
+    return theme;   
 }
 
 const Themes = ()  => {
