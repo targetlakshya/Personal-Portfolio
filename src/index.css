@@ -99,7 +99,7 @@
         margin-bottom: 40px;
     }
 
-    .about__container, .resume__container {
+    .about__container, .resume__container, .contact__container {
         grid-template-columns: 1fr;
     }
 
@@ -125,5 +125,30 @@
 
     .seaparator {
         margin: 65px auto 50px;
+    }
+
+    .porfolio__container {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .contact__container {
+        row-gap: 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .color__block {
+        display: none;        
+    }
+
+    .home__img {
+        width: 270px;
+        height: 270px;
+        border-radius: 50%;
     }
 }
