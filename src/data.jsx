@@ -12,9 +12,9 @@ import {
   import { Link } from 'react-router-dom';
   
   import Work1 from './assets/project-1.png';
-  import Work2 from './assets/project-2.jpg';
-  import Work3 from './assets/project-3.jpeg';
-  import Work4 from './assets/project-4.jpeg';
+  import Work2 from './assets/project-2.png';
+  import Work3 from './assets/project-3.jpg';
+  import Work4 from './assets/project-4.png';
   import Work5 from './assets/project-5.jpg';
   import Work6 from './assets/project-6.jpg';
   
