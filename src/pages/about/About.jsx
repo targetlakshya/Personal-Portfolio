@@ -81,7 +81,31 @@ function About() {
                 </div>
             </div>
 
+            <div className="separator"></div>
+
+            <h3 className="section__subtitle subtitle__center">Position of Responsibility</h3>
+
+            <div className="resume__container grid">
+                {/* <div className="resume__data">
+                    {resume.map((val) => {
+                        if(val.category === "experience") {
+                            return <ResumeItem key={val.id} {...val} />
+                        }
+                    })}
+                </div> */}
+
+                <div className="resume__data">
+                    {resume.map((val) => {
+                        if(val.category === "position") {
+                            return <ResumeItem key={val.id} {...val} />
+                        }
+                    })}
+                </div>
+            </div>
+
             </section>
+
+
         </main>
         );
 }

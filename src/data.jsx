@@ -214,6 +214,38 @@ import {
       title: 'High School Examination <span> <br> V.S. Public School </span>',
       desc: 'I completed my High School Examination from V.S. Public School, Bhopal with a percentage of 88.2%.',
     },
+    {
+      id: 7,
+      category: 'position',
+      icon: <FaGraduationCap />,
+      year: 'Apr 2024-Present',
+      title: 'Developer Advocate <span> <br> Oraichain Labs </span>',
+      desc: 'I completed my High School Examination from V.S. Public School, Bhopal with a percentage of 88.2%.',
+    },
+    {
+      id: 8,
+      category: 'position',
+      icon: <FaGraduationCap />,
+      year: 'Apr 2024-Present',
+      title: 'Regional Lead <span> <br> Outdefine </span>',
+      desc: 'I completed my High School Examination from V.S. Public School, Bhopal with a percentage of 88.2%.',
+    },
+    {
+      id: 9,
+      category: 'position',
+      icon: <FaGraduationCap />,
+      year: 'Jan 2024-Present',
+      title: 'Campus Advocate <span> <br> Central DAO </span>',
+      desc: 'I completed my High School Examination from V.S. Public School, Bhopal with a percentage of 88.2%.',
+    },
+    {
+      id: 10,
+      category: 'position',
+      icon: <FaGraduationCap />,
+      year: 'Aug 2023-Sept 2023',
+      title: 'Campus Ambassador <span> <br> Hackverse Hackathon </span>',
+      desc: 'I completed my High School Examination from V.S. Public School, Bhopal with a percentage of 88.2%.',
+    },
   ];
   
   export const skills = [

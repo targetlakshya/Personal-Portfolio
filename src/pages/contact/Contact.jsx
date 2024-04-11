@@ -5,6 +5,7 @@ import {
     FaFacebookF,
     FaTwitter,
     FaYoutube,
+    FaLinkedin,
     // FaDribble
 } from "react-icons/fa";
 
@@ -50,11 +51,11 @@ const Contact = () => {
                         <a href="https://facebook.com" className="contact__social-link">
                             <FaFacebookF />
                         </a>
-                        <a href="https://twitter.com" className="contact__social-link">
+                        <a href="https://twitter.com/the__lakshya" className="contact__social-link">
                             <FaTwitter />
                         </a>
-                        <a href="https://www.youtube.com/" className="contact__social-link">
-                            <FaYoutube />
+                        <a href="https://www.linkedin.com/in/lakshya-borasi/" className="contact__social-link">
+                            <FaLinkedin />
                         </a>
                         
                     </div>
