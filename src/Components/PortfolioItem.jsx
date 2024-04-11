@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import Close from "../assets/close.svg"
+import { Link } from 'react-router-dom';
 
 
 const PortfolioItem = ({img, title, details}) => {
@@ -36,7 +37,7 @@ const PortfolioItem = ({img, title, details}) => {
 
                                  <div>
                                      <span className="item__title">{title}</span>
-                                     <span className="item__details">{desc}</span>
+                                     <Link to={desc} className="item__details">{desc}</Link>
                                  </div>
                              </li>
                          )

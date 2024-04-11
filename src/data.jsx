@@ -15,8 +15,10 @@ import {
   import Work2 from './assets/project-2.png';
   import Work3 from './assets/project-3.jpg';
   import Work4 from './assets/project-4.png';
-  import Work5 from './assets/project-5.jpg';
-  import Work6 from './assets/project-6.jpg';
+  import Work5 from './assets/project-5.png';
+  import Work6 from './assets/project-6.png';
+  import Work7 from './assets/project-7.jpeg';
+  import Work8 from './assets/project-8.jpeg';
   
   import Theme1 from './assets/purple.png';
   import Theme2 from './assets/red.png';
@@ -150,7 +152,7 @@ import {
   
     {
       id: 4,
-      no: '4+',
+      no: '3+',
       title: ' Hackathons <br /> Participation',
     },
   ];
@@ -192,7 +194,7 @@ import {
       icon: <FaGraduationCap />,
       year: '2021-Present',
       title: 'Bachelor of Technology Degree <span> <br> Technocrats Institute of Technology </span>',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
+      desc: 'I am a Bachelor of Technology student in Computer Science Engineering with a specialization in Artificial Intelligence and Machine Learning from Technocrats Institute of Technology ',
     },
   
     {
@@ -201,7 +203,7 @@ import {
       icon: <FaGraduationCap />,
       year: '2020-2021',
       title: 'Senior Secondary Examination <span> <br>Gyan Sagar Public School </span>',
-      desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+      desc: 'I completed my Senior Secondary Examination with a specialization in Maths & Science from Gyan Sagar Public School, Indore with a percentage of 87.6%.',
     },
   
     {
@@ -210,7 +212,7 @@ import {
       icon: <FaGraduationCap />,
       year: '2018-2019',
       title: 'High School Examination <span> <br> V.S. Public School </span>',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
+      desc: 'I completed my High School Examination from V.S. Public School, Bhopal with a percentage of 88.2%.',
     },
   ];
   
@@ -273,22 +275,22 @@ import {
         {
           icon: <FiFileText />,
           title: 'Project : ',
-          desc: 'Photo',
+          desc: 'Website Design',
         },
         {
           icon: <FiUser />,
           title: 'Client : ',
-          desc: 'Dribble',
+          desc: 'Testing Skills',
         },
         {
           icon: <FaCode />,
           title: 'Language : ',
-          desc: 'Adobe Photoshop',
+          desc: 'HTML CSS',
         },
         {
           icon: <FiExternalLink />,
           title: 'Preview : ',
-          desc: 'www.dribble.com',
+          desc: 'https://beatsheadphonedesign.netlify.app/',
         },
       ],
     },
@@ -296,27 +298,27 @@ import {
     {
       id: 2,
       img: Work2,
-      title: 'Website Design',
+      title: 'Travel Plan Page Design',
       details: [
         {
           icon: <FiFileText />,
           title: 'Project : ',
-          desc: 'Website',
+          desc: 'Website Design',
         },
         {
           icon: <FiUser />,
           title: 'Client : ',
-          desc: 'Dribble',
+          desc: 'Testing Skills',
         },
         {
           icon: <FaCode />,
           title: 'Language : ',
-          desc: 'React JS',
+        desc: 'HTML CSS JS',
         },
         {
           icon: <FiExternalLink />,
           title: 'Preview : ',
-          desc: 'www.dribble.com',
+          desc: 'https://tourismplanpage.netlify.app/',
         },
       ],
     },
@@ -324,27 +326,27 @@ import {
     {
       id: 3,
       img: Work3,
-      title: 'Video Editing',
+      title: 'Real-Esate Page Design',
       details: [
         {
           icon: <FiFileText />,
           title: 'Project : ',
-          desc: 'Video',
+          desc: 'Website Design',
         },
         {
           icon: <FiUser />,
           title: 'Client : ',
-          desc: 'Dribble',
+          desc: 'Testing Skills',
         },
         {
           icon: <FaCode />,
           title: 'Language : ',
-          desc: 'Adobe Premium',
+          desc: 'HTML CSS',
         },
         {
           icon: <FiExternalLink />,
           title: 'Preview : ',
-          desc: 'www.dribble.com',
+          desc: 'https://targetlakshya.github.io/Real-State-Web-Design/',
         },
       ],
     },
@@ -352,27 +354,27 @@ import {
     {
       id: 4,
       img: Work4,
-      title: 'Video Editing',
+      title: 'Github Dev Detector',
       details: [
         {
           icon: <FiFileText />,
           title: 'Project : ',
-          desc: 'Video',
+          desc: 'Website Design',
         },
         {
           icon: <FiUser />,
           title: 'Client : ',
-          desc: 'Dribble',
+          desc: 'Testing Skills',
         },
         {
           icon: <FaCode />,
           title: 'Language : ',
-          desc: 'Adobe Premium',
+          desc: 'HTML CSS JS',
         },
         {
           icon: <FiExternalLink />,
           title: 'Preview : ',
-          desc: 'www.dribble.com',
+          desc: 'https://githubdevdetective.netlify.app/',
         },
       ],
     },
@@ -380,15 +382,15 @@ import {
     {
       id: 5,
       img: Work5,
-      title: 'Landing Page',
+      title: 'Ecomzy Shop App',
       details: [
         {
           title: 'Project : ',
-          desc: 'Website',
+          desc: 'Website Design',
         },
         {
           title: 'Client : ',
-          desc: 'Dribble',
+          desc: 'Testing Skills',
         },
         {
           title: 'Language : ',
@@ -396,7 +398,7 @@ import {
         },
         {
           title: 'Preview : ',
-          desc: 'www.dribble.com',
+          desc: 'https://ecomzy-shop-app-one.vercel.app/',
         },
       ],
     },
@@ -404,12 +406,12 @@ import {
     {
       id: 6,
       img: Work6,
-      title: 'Photo Editing',
+      title: 'Password Genrator',
       details: [
         {
           icon: <FiFileText />,
           title: 'Project : ',
-          desc: 'Photo',
+          desc: 'Website Design',
         },
         {
           icon: <FiUser />,
@@ -419,12 +421,67 @@ import {
         {
           icon: <FaCode />,
           title: 'Language : ',
-          desc: 'Adobe Photoshop',
+          desc: 'HTML CSS JS',
         },
         {
           icon: <FiExternalLink />,
           title: 'Preview : ',
-          desc: 'www.dibble.com',
+          desc: 'https://passwordgeneratorlakshya.netlify.app/',
+        },
+      ],
+    },
+
+    {
+      id: 7,
+      img: Work7,
+      title: 'Youtube Video Downloader',
+      details: [
+        {
+          icon: <FiFileText />,
+          title: 'Project : ',
+          desc: 'Console Media Downloader',
+        },
+        {
+          icon: <FiUser />,
+          title: 'Client : ',
+          desc: 'Testing skills',
+        },
+        {
+          icon: <FaCode />,
+          title: 'Language : ',
+          desc: 'Python',
+        },
+        {
+          icon: <FiExternalLink />,
+          title: 'Preview : ',
+          desc: 'https://github.com/targetlakshya/Youtube-Downloader',
+        },
+      ],
+    },
+    {
+      id: 8,
+      img: Work8,
+      title: 'Phishing Detection System',
+      details: [
+        {
+          icon: <FiFileText />,
+          title: 'Project : ',
+          desc: 'Console phishing detection system',
+        },
+        {
+          icon: <FiUser />,
+          title: 'Client : ',
+          desc: 'Testing skills',
+        },
+        {
+          icon: <FaCode />,
+          title: 'Language : ',
+          desc: 'Python',
+        },
+        {
+          icon: <FiExternalLink />,
+          title: 'Preview : ',
+          desc: 'https://github.com/targetlakshya/Phishing-Detection-System',
         },
       ],
     },
