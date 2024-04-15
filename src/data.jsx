@@ -220,7 +220,8 @@ import {
       icon: <FaGraduationCap />,
       year: 'Apr 2024-Present',
       title: 'Developer Advocate <span> <br> Oraichain Labs </span>',
-      desc: 'I completed my High School Examination from V.S. Public School, Bhopal with a percentage of 88.2%.',
+      desc: `As a Developer Advocate we are responsible for progress to building projects, onboarding evangelists, and representing the
+      community in events and workshops.`,
     },
     {
       id: 8,
@@ -228,7 +229,7 @@ import {
       icon: <FaGraduationCap />,
       year: 'Apr 2024-Present',
       title: 'Regional Lead <span> <br> Outdefine </span>',
-      desc: 'I completed my High School Examination from V.S. Public School, Bhopal with a percentage of 88.2%.',
+      desc:   `As a Regional Lead, I am responsible for managing the team of Outdefine in the region. I am responsible for the growth of the team and the company in the region.`,
     },
     {
       id: 9,
@@ -236,7 +237,7 @@ import {
       icon: <FaGraduationCap />,
       year: 'Jan 2024-Present',
       title: 'Campus Advocate <span> <br> Central DAO </span>',
-      desc: 'I completed my High School Examination from V.S. Public School, Bhopal with a percentage of 88.2%.',
+      desc:  `Promote Central DAO in the campus and help students to understand the concept of DAO and blockchain technology.`,
     },
     {
       id: 10,
@@ -244,7 +245,7 @@ import {
       icon: <FaGraduationCap />,
       year: 'Aug 2023-Sept 2023',
       title: 'Campus Ambassador <span> <br> Hackverse Hackathon </span>',
-      desc: 'I completed my High School Examination from V.S. Public School, Bhopal with a percentage of 88.2%.',
+      desc: `Promote Hackverse Hackathon in the campus and help students to understand the concept of hackathons and how they can participate in it.`,
     },
   ];
   
