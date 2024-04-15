@@ -188,7 +188,7 @@
 
 @media screen and (max-width: 576px ) {
     .nav__toggle {
-        top: 20px;
+        top: 15px;
         right: 20px;
     }
     
@@ -201,10 +201,10 @@
     }
 
     .skills__container {
-        grid-template-columns: repeat(2,1fr); 
+        grid-template-columns: repeat(2, 1fr); 
     }
 
-    .porfolio__container{
+    .porfolio__container {
         grid-template-columns: 1fr;
     }
 
@@ -242,7 +242,7 @@
     }
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 410px){
     .home__img {
         display: none;
     }
