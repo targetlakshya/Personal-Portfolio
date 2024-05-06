@@ -6,7 +6,7 @@ import {
     FaBriefcase,
     FaGraduationCap,
     FaCode,
-    FaGithub 
+    FaGithub
   } from 'react-icons/fa';
   import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
   import { Link } from 'react-router-dom';
@@ -66,7 +66,7 @@ import {
       icon: <FaGithub className='nav__icon' />,
       path: 'https://github.com/targetlakshya',
       target: '_blank',
-    }
+    },
   ];
   
   export const personalInfo = [
