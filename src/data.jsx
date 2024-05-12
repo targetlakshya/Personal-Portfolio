@@ -17,8 +17,9 @@ import {
   import Work4 from './assets/project-4.png';
   import Work5 from './assets/project-5.png';
   import Work6 from './assets/project-6.png';
-  import Work7 from './assets/project-7.jpeg';
-  import Work8 from './assets/project-8.jpeg';
+  import Work7 from './assets/project-7.jpg';
+  import Work8 from './assets/project-8.jpg';
+  import Work9 from './assets/project-9.jpg';
   
   import Theme1 from './assets/purple.png';
   import Theme2 from './assets/red.png';
@@ -411,31 +412,6 @@ import {
         },
       ],
     },
-  
-    {
-      id: 5,
-      img: Work5,
-      title: 'Ecomzy Shop App',
-      details: [
-        {
-          title: 'Project : ',
-          desc: 'Website Design',
-        },
-        {
-          title: 'Client : ',
-          desc: 'Testing Skills',
-        },
-        {
-          title: 'Language : ',
-          desc: 'React JS, Node JS',
-        },
-        {
-          title: 'Preview : ',
-          desc: 'https://ecomzy-shop-app-one.vercel.app/',
-        },
-      ],
-    },
-  
     {
       id: 6,
       img: Work6,
@@ -460,6 +436,58 @@ import {
           icon: <FiExternalLink />,
           title: 'Preview : ',
           desc: 'https://passwordgeneratorlakshya.netlify.app/',
+        },
+      ],
+    },
+  
+    {
+      id: 5,
+      img: Work5,
+      title: 'Ecomzy Shop App',
+      details: [
+        {
+          title: 'Project : ',
+          desc: 'Website Design',
+        },
+        {
+          title: 'Client : ',
+          desc: 'Testing Skills',
+        },
+        {
+          title: 'Language : ',
+          desc: 'React JS, Node JS',
+        },
+        {
+          title: 'Preview : ',
+          desc: 'https://ecomzy-shop-app-one.vercel.app/',
+        },
+      ],
+    },
+
+    {
+      id: 7,
+      img: Work9,
+      title: 'Devnode Blog App',
+      details: [
+        {
+          icon: <FiFileText />,
+          title: 'Project : ',
+          desc: 'Full Stack Blog App',
+        },
+        {
+          icon: <FiUser />,
+          title: 'Major Project',
+          desc: 'Project',
+        },
+        {
+          icon: <FaCode />,
+          title: 'Technology : ',
+          desc: 'Next JS and Firebase',
+        },
+        {
+          icon: <FiExternalLink />,
+          title: 'Preview : ',
+          desc: 'https://devnodelakshya.vercel.app/',
         },
       ],
     },
