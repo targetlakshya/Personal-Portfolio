@@ -49,7 +49,7 @@
 }
 
 .color__block {
-    position: fixed;
+    position: absolute;
     height: 200%;
     width: 100%;
     background-color: var(--first-color);
