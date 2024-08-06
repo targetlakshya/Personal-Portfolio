@@ -49,11 +49,12 @@
 }
 
 .color__block {
-    position: absolute;
+    position: fixed;
     height: 200%;
     width: 100%;
     background-color: var(--first-color);
     top: -50%;
     left: -83%;
+    /* scroll-behavior: unset; */
     transform: rotate(-15deg);
 }

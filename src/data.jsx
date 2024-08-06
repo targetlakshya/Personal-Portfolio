@@ -163,6 +163,15 @@ import {
       id: 1,
       category: 'experience',
       icon: <FaBriefcase />,
+      year: 'JUL 2024 - JUL 2024',
+      title: 'Research Intern <span> Indian Institute of Technology, Mandi  </span>',
+      desc: 'Contributed to CLIP development for image-text retrieval. Built & trained model using PyTorch, Tensorflow etc, Developed machine learning model using Librosa to convert audio to spectrograms. Facilitated audio analysis for ML projects',
+    },
+
+    {
+      id: 2,
+      category: 'experience',
+      icon: <FaBriefcase />,
       year: 'DEC 2023 - MAR 2024',
       title: 'Prompt Designer <span> Sugarcane AI </span>',
       desc: `As a Prompt Designing Intern at SugarCane AI,I focused on training their AI model.
@@ -170,15 +179,6 @@ import {
       improved performance. Assisted in troubleshooting technical issues and documented processes
       for knowledge sharing.`,
     },
-  
-    // {
-    //   id: 2,
-    //   category: 'experience',
-    //   icon: <FaBriefcase />,
-    //   year: '2013 - 2018',
-    //   title: 'UI/UX Designer <span> Themeforest </span>',
-    //   desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
-    // },
   
     // {
     //   id: 3,
@@ -230,7 +230,15 @@ import {
       icon: <FaGraduationCap />,
       year: 'Apr 2024-Present',
       title: 'Regional Lead <span> <br> Outdefine </span>',
-      desc:   `As a Regional Lead, I am responsible for managing the team of Outdefine in the region. I am responsible for the growth of the team and the company in the region.`,
+      desc:   `As a Regional Lead, I am responsible for managing the team of Outdefine in the region. I am responsible for the growth of the team and the company in the Central region.`,
+    },
+    {
+      id: 10,
+      category: 'position',
+      icon: <FaGraduationCap />,
+      year: 'JUL 2024-Present',
+      title: 'Regional Lead <span> <br> MultichainIN </span>',
+      desc:   `As a Regional Lead, I am responsible for managing the team of MultichainIN in the region. I am responsible for the growth of the team and the company in the Central region.`,
     },
     {
       id: 9,
@@ -274,6 +282,12 @@ import {
       title: 'Python',
       percentage: '89',
     },
+
+    {
+      id: 5,
+      title: 'Typescript',
+      percentage: '39',
+    },
   
     {
       id: 5,
@@ -283,7 +297,7 @@ import {
   
     {
       id: 6,
-      title: 'React',
+      title: 'React JS',
       percentage: '45',
     },
   
@@ -298,6 +312,26 @@ import {
       title: 'OOPS',
       percentage: '45',
     },
+
+    {
+      id: 9,
+      title: 'Firebase',
+      percentage: '54',
+    },
+
+    {
+      id: 8,
+      title: 'Machine Learning',
+      percentage: '35',
+    },
+
+    {
+      id: 8,
+      title: 'Data Visualization',
+      percentage: '40',
+    },
+
+    
   ];
   
   export const portfolio = [
@@ -330,7 +364,7 @@ import {
     },
   
     {
-      id: 2,
+      id: 3,
       img: Work2,
       title: 'Travel Plan Page Design',
       details: [
@@ -358,7 +392,7 @@ import {
     },
   
     {
-      id: 3,
+      id: 2,
       img: Work3,
       title: 'Real-Esate Page Design',
       details: [
@@ -543,6 +577,33 @@ import {
           icon: <FiExternalLink />,
           title: 'Preview : ',
           desc: 'https://github.com/targetlakshya/Phishing-Detection-System',
+        },
+      ],
+    },
+    {
+      id: 8,
+      img: Work8,
+      title: 'Vision Language Model',
+      details: [
+        {
+          icon: <FiFileText />,
+          title: 'Project : ',
+          desc: 'Fine-tuned CLIP model for image-text retrieval.',
+        },
+        {
+          icon: <FiUser />,
+          title: 'Client : ',
+          desc: 'My Research Project at IIT Mandi',
+        },
+        {
+          icon: <FaCode />,
+          title: 'Language : ',
+          desc: 'Python',
+        },
+        {
+          icon: <FiExternalLink />,
+          title: 'Preview : ',
+          desc: 'https://www.kaggle.com/code/lakshyaborasi/vision-language-model',
         },
       ],
     },
