@@ -167,3 +167,28 @@
     line-height: 1.6;
 }
 
+/* Add gap between the buttons */
+/* .button-gap {
+    margin:  0;
+} */
+
+/* Style the button if needed */
+/* .button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-color);
+    background-color: var(--first-color);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+} */
+
+
+
+
+

@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';  // Import the Link component
+import { FaDownload, FaArrowRight } from "react-icons/fa";  // Import icons
 import Info from '../../Components/Info.jsx';
 import Stats from '../../Components/Stats';
-import { FaDownload } from "react-icons/fa";
 import CV from '../../assets/LakshyaBorasi-Resume.pdf';
-import "./about.css"
+import "./about.css";
 import Skills from '../../Components/Skills.jsx';
 import { resume } from '../../data.jsx';
 import ResumeItem from '../../Components/ResumeItem.jsx';
@@ -23,13 +24,21 @@ function About() {
                         </ul>
 
                         <a href={CV} download='' className="button">Download Resume <span className="button__icon"><FaDownload /></span></a>
+
+                        {/* Add gap between buttons */}
+                        {/* <div className="button-gap"></div> */}
+
+                        {/* Add the button to navigate to the Portfolio page with an icon */}
+                        {'                           '}                                                                                                      
+                        <Link to="/portfolio" className="button">
+                            Go to Portfolio <span className="button__icon"><FaArrowRight /></span>
+                        </Link>
                     </div>
                     <div className="stats grid">
-                    <Stats />
+                        <Stats />
                     </div>
                 </div>
 
-                  
             </section>
 
             <div className="separator"></div>
@@ -64,14 +73,6 @@ function About() {
             <h3 className="section__subtitle subtitle__center">Education</h3>
 
             <div className="resume__container grid">
-                {/* <div className="resume__data">
-                    {resume.map((val) => {
-                        if(val.category === "experience") {
-                            return <ResumeItem key={val.id} {...val} />
-                        }
-                    })}
-                </div> */}
-
                 <div className="resume__data">
                     {resume.map((val) => {
                         if(val.category === "education") {
@@ -86,14 +87,6 @@ function About() {
             <h3 className="section__subtitle subtitle__center">Position of Responsibility</h3>
 
             <div className="resume__container grid">
-                {/* <div className="resume__data">
-                    {resume.map((val) => {
-                        if(val.category === "experience") {
-                            return <ResumeItem key={val.id} {...val} />
-                        }
-                    })}
-                </div> */}
-
                 <div className="resume__data">
                     {resume.map((val) => {
                         if(val.category === "position") {
@@ -104,10 +97,8 @@ function About() {
             </div>
 
             </section>
-
-
         </main>
-        );
+    );
 }
 
 export default About;
