@@ -60,3 +60,35 @@
     /* scroll-behavior: unset; */
     transform: rotate(-15deg);
 }
+
+.role-text {
+    transition: opacity 0.5s ease-in-out;
+}
+
+.typing-container {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    white-space: nowrap; /* Prevents line breaks */
+    font-size: var(--h1-font-size);
+    font-weight: bold;
+    color: var(--first-color);
+}
+
+.typing-text {
+    font-weight: bold;
+}
+
+.cursor {
+    display: inline-block;
+    width: 2px;
+    height: 1.2em;
+    background-color: var(--first-color);
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
