@@ -5,7 +5,7 @@ import { FaArrowRight } from "react-icons/fa";
 import "./home.css";
 
 function Home() {
-    const roles = ["Python Developer", "Frontend Developer", "ML Engineer"];
+    const roles = ["Frontend Developer", "ML Enthusiat"];
     const [displayText, setDisplayText] = useState("");
     const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
     const [charIndex, setCharIndex] = useState(0);
